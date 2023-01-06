@@ -2,7 +2,7 @@ import React from 'react'
 
 import { About, Ria, Find, Footer, Gallery, Header } from './container'
 
-import { NavBar } from './components'
+import NavBar from './components/NavBar/Navbar'
 
 import './App.css'
 
@@ -11,11 +11,11 @@ const App = () => {
         <div>
             <NavBar />
             <Header />
-            <About />
+            {/* <About />
             <Ria />
             <Gallery />
             <Find />
-            <Footer />
+            <Footer /> */}
         </div>
     )
 }
