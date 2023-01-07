@@ -27,7 +27,7 @@ const Navbar = () => {
                 <a href='/' className='p__opensans'>Book Appointment</a>
             </div>
             <div className='app__navbar-smallscreen'>
-                <GiHamburgerMenu color='#fff' fontSize={27} onClick={() => setToggleMenu(true)} />
+                <GiHamburgerMenu color='#a82b7d' fontSize={27} onClick={() => setToggleMenu(true)} />
 
 
                 {toggleMenu && (

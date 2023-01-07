@@ -4,12 +4,12 @@
     --font-base: 'Lobster Two', serif;
     --font-alt: 'Open Sans', sans-serif;
 
-    --color-golden: #DCCA87;
-    --color-black: #0C0C0C;
+    --color-golden: #a82b7d;
+    --color-black: #eff4e9;
     --color-gray: #545454;
     --color-crimson: #F5EFDB;
-    --color-grey: #AAAAAA;
-    --color-white: #FFFFFF;
+    --color-grey: #a82b7d;
+    --color-white: #a82b7d;
 }
 
 * {
