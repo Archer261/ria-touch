@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { About, Ria, Find, Footer, Gallery, Header } from './container'
+import { About, Ria, Find, Footer, Gallery, Header, Services } from './container'
 
 import NavBar from './components/NavBar/Navbar'
 
@@ -11,9 +11,10 @@ const App = () => {
         <div>
             <NavBar />
             <Header />
-            {/* <About />
+            <About />
             <Ria />
-            <Gallery />
+            <Services />
+            {/*<Gallery />
             <Find />
             <Footer /> */}
         </div>

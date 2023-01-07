@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { images } from '../../constants'
+
 import './Ria.css'
 
 const Ria = () => {

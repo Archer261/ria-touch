@@ -53,7 +53,7 @@
 }
 
 .custom__button {
-    background-color: var(--color-crimson);
+    background-color: var(--color-golden);
     color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 700;
@@ -79,7 +79,7 @@
 }
 
 .p__opensans {
-    font-family: var(--font-alt);
+    font-family: var(--font-base);
     color: var(--color-white);
     font-weight: 400;
     letter-spacing: 0.04em;
@@ -97,7 +97,7 @@
     text-transform: capitalize;
 }
 
-.spoon__img {
+.massage__img {
     width: 45px;
 }
 
@@ -119,7 +119,7 @@
         line-height: 210px;
     }
 
-    .spoon__img {
+    .massage__img {
         width: 80px;
     }
 }

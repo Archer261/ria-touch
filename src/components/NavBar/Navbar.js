@@ -19,7 +19,6 @@ const Navbar = () => {
                 <li className='p__opensans'><a href='#about'>About</a></li>
                 <li className='p__opensans'><a href='#services'>Services</a></li>
                 <li className='p__opensans'><a href='#contact'>Contact</a></li>
-                <li className='p__opensans'><a href='#home'>Home</a></li>
             </ul>
             <div className='app__navbar-call'>
                 <a href="#" className='p__opensans'><img src={images.phone} /></a>
@@ -39,7 +38,6 @@ const Navbar = () => {
                             <li className='p__opensans'><a href='#about'>About</a></li>
                             <li className='p__opensans'><a href='#services'>Services</a></li>
                             <li className='p__opensans'><a href='#contact'>Contact</a></li>
-                            <li className='p__opensans'><a href='#home'>Home</a></li>
                         </ul>
                     </div>
                 )}
