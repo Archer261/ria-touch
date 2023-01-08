@@ -4,5 +4,6 @@ import massage from '../assets/bannerImg.png'
 import welcome from '../assets/welcome.png'
 import rose from '../assets/rose.png'
 import bgRia from '../assets/bgRia.png'
+import book from '../assets/book.png'
 
-export default { ria, phone, massage, welcome, rose, bgRia }
+export default { ria, phone, massage, welcome, rose, bgRia, book }

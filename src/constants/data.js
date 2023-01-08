@@ -124,4 +124,47 @@ const services = [
 
     },
 
+];
+
+const packages = [
+    {
+        title: `Relaxing Body Massage`,
+        description: ``,
+
+
+        time: 60,
+        price: 250,
+        inclusions: ["One Free Facial Lymphatic for New clients", "One Free parafin hand wax", "Free Organic Green Tea"]
+
+    },
+    {
+        title: `4 Back Massage`,
+        description: `it eases muscle tensions, reduced spasms ans inflammation.
+
+ 
+
+        Massage therapy can provide substantial healing and pain relief for lower back problems.
+        
+         
+        
+        Specifically, for pain caused by a back strain, when the correct muscle is targeted, the pain can be controlled at its source- for quicker and lasting relief.`,
+
+
+        time: 40,
+        price: 250,
+        inclusions: []
+
+    },
+    {
+        title: `Deep Tissue Body Massages`,
+        description: `Deep Tissue Body Massages incld hot towels, using organic essential oils`,
+
+
+        time: 60,
+        price: 450,
+        inclusions: ["Feet Massage", "Free Full Size Body Wash", "Green tea"]
+
+    }
 ]
+
+export default { services, packages }

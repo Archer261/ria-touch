@@ -12,7 +12,7 @@ const App = () => {
             <NavBar />
             <Header />
             <About />
-            <Ria />
+            {/* <Ria /> */}
             <Services />
             {/*<Gallery />
             <Find />

@@ -8,8 +8,8 @@ const Header = () => {
     return (
         <div className='app__header app__wrapper section__padding'>
             <div className='app__wrapper_info'>
-                <SubHeading title="We Are Here to Relax You!" />
-                <h1 className='app__header-h1'>Rias Touch Massage</h1>
+                <SubHeading title="Rias Touch Massage" />
+                <h1 className='app__header-h1'>We Are Here to Relax You!</h1>
                 <p className='p__opensans' style={{ margin: '2rem 0' }}>
                     We are committed to your long term health and well-being. Explore our studio on the following pages, and discover all the benefits you'll enjoy as one of our treasured clients.
                     <br />
