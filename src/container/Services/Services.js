@@ -8,7 +8,7 @@ import '../Services/Services.css'
 
 const Services = () => {
     return (
-        <div className='app__specialMenu flex__center section__padding id "services"'>
+        <div className='app__specialMenu flex__center section__padding' id="services">
             <div className='app__specialMenu-title'>
                 <SubHeading title="Massage Packages" />
                 <h1 className='headtext__cormorant'>Special Promotion</h1>
@@ -16,7 +16,7 @@ const Services = () => {
 
             <div className='app__specialMenu-menu'>
                 <div className='app__specialMenu-menu_left flex__center'>
-                    <p className='app__specialMenu_menu_heading'>Massage Services</p>
+                    <p className='app__specialMenu-menu_heading'>Massage Services</p>
                     <div className='app__specialMenu_menu_items'>
                         {data.services.map((service, index) => (
                             <ServiceItem key={service.title + index} title={service.title} packs={service.packs} />
@@ -31,7 +31,7 @@ const Services = () => {
 
 
                 <div className='app__specialMenu-menu_right flex__center'>
-                    <p className='app__specialMenu_menu_heading'>Massage Packages</p>
+                    <p className='app__specialMenu-menu_heading'>Massage Packages</p>
                     <div className='app__specialMenu_menu_items'>
                         {data.packages.map((pkg, index) => (
                             <ServiceItem key={pkg.title + index} title={pkg.title} price={pkg.price} />

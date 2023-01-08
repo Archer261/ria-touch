@@ -2,8 +2,12 @@
     width: 50%;
 }
 
-
 .title {
     font-size: 2rem;
     color: var(--color-golden)
+}
+
+.title_dark {
+    font-size: 2rem;
+    color: var(--color-crimson)
 }

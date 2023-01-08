@@ -9,7 +9,7 @@ const ServiceItem = ({ title, price, packs }) => {
     return (
       <div className='app__menuitem'>
         <div className='app__menuitem-head'>
-          <div className='app__menuite-name'>
+          <div className='app__menuitem-name'>
             <p className='p__cormorant' style={{ color: '#9245ca' }}>
               {title}
             </p>
@@ -24,16 +24,18 @@ const ServiceItem = ({ title, price, packs }) => {
     return (
       <div className='app__menuitem'>
         <div className='app__menuitem-head'>
-          <div className='app__menuite-name'>
+          <div className='app__menuitem-name'>
             <p className='p__cormorant' style={{ color: '#9245ca' }}>
               {title}
             </p>
 
           </div>
 
-          <div className='app__menuite-price'>
+          <div className='app__menuitem-dash' />
+
+          <div className='app__menuitem-price'>
             <p className='p__cormorant'>
-              {price}
+              ${price}
             </p>
 
           </div>

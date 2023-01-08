@@ -68,7 +68,7 @@
 }
 
 .p__cormorant {
-    font-family: var(--font-base);
+    font-family: var(--font-alt);
     color: var(--color-white);
     font-weight: 700;
     letter-spacing: 0.04em;
@@ -88,9 +88,28 @@
     font-size: 16px;
 }
 
+.p__opensans_dark {
+    font-family: var(--font-alt);
+    color: var(--color-crimson);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 16px;
+}
+
 .headtext__cormorant {
     font-family: var(--font-base);
     color: var(--color-golden);
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+.headtext__cormorant_dark {
+    font-family: var(--font-base);
+    color: var(--color-crimson);
     font-size: 64px;
     line-height: 83.2px;
     letter-spacing: 0.04em;

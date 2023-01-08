@@ -7,13 +7,13 @@ import './About.css';
 const About = () => {
   return (
     <div className='app__aboutus app__bg flex__center section__padding' id="about">
-      <div className='app__aboutus-overlay flex__center'>
+      {/* <div className='app__aboutus-overlay flex__center'>
         <img src={images.bgRia} alt='bg' />
-      </div>
+      </div> */}
 
       <div className='app__aboutus-content flex__center'>
         <div className='app__aboutus-content_about'>
-          <h1 className='headtext__cormorant'>
+          <h1 className='headtext__cormorant_dark'>
             About Ria's Touch
           </h1>
           <img src={images.massage} alt="massage" className='massage__img' />
@@ -26,7 +26,7 @@ const About = () => {
         </div>
 
         <div className='app__aboutus-content_location'>
-          <h1 className='headtext__cormorant'>
+          <h1 className='headtext__cormorant_dark'>
             Location
           </h1>
           <img src={images.massage} alt="massage" className='massage__img' />

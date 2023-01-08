@@ -47,7 +47,7 @@
 .app__aboutus-content_location p,
 .app__aboutus-content_about p {
     margin: 2rem 0;
-    color: var(--color-grey)
+    color: var(--color-crimson)
 }
 
 @media screen and (max-width: 2000px) {
