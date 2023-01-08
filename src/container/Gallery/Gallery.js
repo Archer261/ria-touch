@@ -6,7 +6,7 @@ import { images } from '../../constants'
 
 import './Gallery.css'
 
-const galleryImages = [images.galler1, images.gallery2, images.gallery3, images.gallery4];
+const galleryImages = [images.gallery1, images.gallery2, images.gallery3, images.gallery4];
 
 const Gallery = () => {
 
@@ -23,7 +23,7 @@ const Gallery = () => {
   }
 
   return (
-    <div className='app__gallery flex__center'>
+    <div className='app__gallery flex__center' id='gallery'>
       <div className='app__gallery-content'>
         <SubHeading title="Instagram" />
         <h1 className='headtext__cormorant'>Photo Gallery</h1>

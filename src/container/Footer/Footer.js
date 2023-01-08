@@ -14,8 +14,8 @@ const Footer = () => {
                 <div className='app__footer-links_contact'>
                     <h1 className='app__footer-headtext'>Contact Us</h1>
                     <p className='p__opensans'>Van Dyke Ave Shelby Business Center,Suite 27</p>
-                    <p className='p__opensans'>5862586841</p>
-                    <p className='p__opensans'>rias.touch.massage@gmail.com</p>
+                    <p className='p__opensans'>Phone: (586)258-6841</p>
+                    <p className='p__opensans'>Email: rias.touch.massage@gmail.com</p>
                 </div>
                 <div className='app__footer-links_logo'>
                     <img src={images.ria} alt="footer logo" />

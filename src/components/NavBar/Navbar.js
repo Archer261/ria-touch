@@ -18,10 +18,11 @@ const Navbar = () => {
                 <li className='p__opensans'><a href='#home'>Home</a></li>
                 <li className='p__opensans'><a href='#about'>About</a></li>
                 <li className='p__opensans'><a href='#services'>Services</a></li>
+                <li className='p__opensans'><a href='#gallery'>Gallery</a></li>
                 <li className='p__opensans'><a href='#contact'>Contact</a></li>
             </ul>
             <div className='app__navbar-call'>
-                <a href="#" className='p__opensans'><img src={images.phone} /></a>
+                <a href="tel:5862586841" className='p__opensans'>(586)258-6841</a>
                 <div />
                 <a href='/' className='p__opensans'>Book Appointment</a>
             </div>
