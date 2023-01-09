@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ria-touch/static/css/main.c26faa2a.css",
-    "main.js": "/ria-touch/static/js/main.412a69ff.js",
-    "static/media/20181029_090852.mp4": "/ria-touch/static/media/20181029_090852.cb58c417828ee5292bf5.mp4",
+    "main.js": "/ria-touch/static/js/main.b094c78a.js",
+    "static/media/20181029_0908521.mp4": "/ria-touch/static/media/20181029_0908521.cb58c417828ee5292bf5.mp4",
     "static/media/bg.png": "/ria-touch/static/media/bg.6a7f3cbd333ffdddaa0f.png",
     "static/media/gallery1.jpg": "/ria-touch/static/media/gallery1.e23ec65be832a9af334f.jpg",
     "static/media/welcome.png": "/ria-touch/static/media/welcome.2d548d5ee59835698fde.png",
@@ -17,10 +17,10 @@
     "static/media/bgRia.png": "/ria-touch/static/media/bgRia.2835bc487091b0d85100.png",
     "index.html": "/ria-touch/index.html",
     "main.c26faa2a.css.map": "/ria-touch/static/css/main.c26faa2a.css.map",
-    "main.412a69ff.js.map": "/ria-touch/static/js/main.412a69ff.js.map"
+    "main.b094c78a.js.map": "/ria-touch/static/js/main.b094c78a.js.map"
   },
   "entrypoints": [
     "static/css/main.c26faa2a.css",
-    "static/js/main.412a69ff.js"
+    "static/js/main.b094c78a.js"
   ]
 }
