@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className='app__footer-links_logo'>
                     <img src={images.ria} alt="footer logo" />
                     <p className='p__opensans'></p>
-                    <img src={images.massage} alt="underline" className="underline_img" style={{ marginTop: 15 }} />
+                    <img src={images.massage} alt="underline" className="underline_img" style={{ marginTop: 15, width: '50%' }} />
                     <div className="app__footer-links_icons">
                         <FiFacebook />
                         <FiTwitter />
