@@ -39,6 +39,7 @@ const Navbar = () => {
                             <li className='p__opensans'><a href='#about'>About</a></li>
                             <li className='p__opensans'><a href='#services'>Services</a></li>
                             <li className='p__opensans'><a href='#contact'>Contact</a></li>
+                            <li className='p__opensans'><a href='#contact'>Gallery</a></li>
                         </ul>
                     </div>
                 )}
