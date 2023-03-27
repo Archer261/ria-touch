@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/ria-touch/static/css/main.c26faa2a.css",
-    "main.js": "/ria-touch/static/js/main.b094c78a.js",
+    "main.css": "/ria-touch/static/css/main.114599a6.css",
+    "main.js": "/ria-touch/static/js/main.2298070f.js",
     "static/media/20181029_0908521.mp4": "/ria-touch/static/media/20181029_0908521.cb58c417828ee5292bf5.mp4",
-    "static/media/bg.png": "/ria-touch/static/media/bg.6a7f3cbd333ffdddaa0f.png",
-    "static/media/gallery1.jpg": "/ria-touch/static/media/gallery1.e23ec65be832a9af334f.jpg",
+    "static/media/riaArticle.png": "/ria-touch/static/media/riaArticle.5c061c4f68ac6535f5dd.png",
+    "static/media/IMG-4884.jpg": "/ria-touch/static/media/IMG-4884.a10d983c262359c69e17.jpg",
+    "static/media/IMG-9297.jpg": "/ria-touch/static/media/IMG-9297.bf1f85ab7d9276356748.jpg",
+    "static/media/IMG-4307.jpg": "/ria-touch/static/media/IMG-4307.6650d92fee8a0e355fde.jpg",
     "static/media/welcome.png": "/ria-touch/static/media/welcome.2d548d5ee59835698fde.png",
-    "static/media/gallery2.png": "/ria-touch/static/media/gallery2.7e063b55df2a1e30defa.png",
-    "static/media/gallery4.png": "/ria-touch/static/media/gallery4.344b9b2b3ddb07acb2c7.png",
-    "static/media/ria.jpg": "/ria-touch/static/media/ria.b570ae08f9bf1750eedb.jpg",
+    "static/media/IMG-8892.PNG": "/ria-touch/static/media/IMG-8892.5e216c4d3a4dd6962b63.PNG",
     "static/media/gallery3.jpg": "/ria-touch/static/media/gallery3.2198a6653788a4adb404.jpg",
     "static/media/book.png": "/ria-touch/static/media/book.21aeb08204f5b4fbd067.png",
     "static/media/rose.png": "/ria-touch/static/media/rose.20cc635e4fb4e06cc5b6.png",
+    "static/media/cache_4108698412.jpg": "/ria-touch/static/media/cache_4108698412.5c02bb203f463c2207d2.jpg",
     "static/media/phone.png": "/ria-touch/static/media/phone.5dfbb14eb7cf8fba772f.png",
     "static/media/riaLogo.png": "/ria-touch/static/media/riaLogo.fb935eb163d2e571b50b.png",
     "static/media/bgRia.png": "/ria-touch/static/media/bgRia.2835bc487091b0d85100.png",
     "index.html": "/ria-touch/index.html",
-    "main.c26faa2a.css.map": "/ria-touch/static/css/main.c26faa2a.css.map",
-    "main.b094c78a.js.map": "/ria-touch/static/js/main.b094c78a.js.map"
+    "main.114599a6.css.map": "/ria-touch/static/css/main.114599a6.css.map",
+    "main.2298070f.js.map": "/ria-touch/static/js/main.2298070f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c26faa2a.css",
-    "static/js/main.b094c78a.js"
+    "static/css/main.114599a6.css",
+    "static/js/main.2298070f.js"
   ]
 }
