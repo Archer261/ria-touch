@@ -34,7 +34,7 @@
 }
 
 .app__specialMenu-menu_img {
-    width: 410px;
+    width: 1rem;
     margin: 0 2rem;
 }
 
@@ -48,6 +48,23 @@
     flex-direction: column;
     margin: 2rem 0;
     width: 100%;
+}
+
+.service-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 5rem;
+    padding: 1rem 2rem;
+}
+
+.service-cont div {
+    margin: 1rem 2rem;
+}
+
+.service-cont img {
+    width: 12rem;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 2000px) {
@@ -80,6 +97,10 @@
 
     .app__specialMenu-menu img {
         margin: 3rem 0;
+    }
+
+    .service-cont {
+        flex-direction: column;
     }
 }
 

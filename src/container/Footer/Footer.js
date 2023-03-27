@@ -22,9 +22,9 @@ const Footer = () => {
                     <p className='p__opensans'></p>
                     <img src={images.massage} alt="underline" className="underline_img" style={{ marginTop: 15, width: '50%' }} />
                     <div className="app__footer-links_icons">
-                        <FiFacebook />
+                        <a href='https://www.facebook.com/riastouchmassage'><FiFacebook /></a>
                         <FiTwitter />
-                        <FiInstagram />
+                        <a href='https://www.instagram.com/riastouchmassage/'><FiInstagram /></a>
                     </div>
                 </div>
                 <div className='app__footer-links_work'>

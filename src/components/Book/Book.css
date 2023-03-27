@@ -1,0 +1,35 @@
+.book-btn {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    margin: 0 auto;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: var(--color-golden);
+    color: var(--color-black);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2rem;
+    transition: all 0.2s ease-in-out;
+
+    /* transform: translateX(-50%); */
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    z-index: 50;
+}
+
+.book-btn.visible {
+    opacity: 1;
+}
+
+.book-btn.hidden {
+    display: none;
+}
+
+.book-btn:hover {
+    transform: scale(1.1);
+}

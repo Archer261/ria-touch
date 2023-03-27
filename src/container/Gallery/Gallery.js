@@ -27,8 +27,8 @@ const Gallery = () => {
       <div className='app__gallery-content'>
         <SubHeading title="Instagram" />
         <h1 className='headtext__cormorant'>Photo Gallery</h1>
-        <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem' }}> skjfdlskflkdjlksfkldjfls</p>
-        <button type="button" className='custom__button'>View More</button>
+        <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem' }}> Meet Our Clients!</p>
+        {/* <button type="button" className='custom__button'>View More</button> */}
       </div>
 
       <div className='app__gallery-images'>

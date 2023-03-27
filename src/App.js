@@ -1,10 +1,11 @@
 import React from 'react'
 
-import { About, Ria, Find, Footer, Gallery, Header, Services, Video } from './container'
+import { About, Ria, Find, Footer, Gallery, Header, Services, Video, Testimonials } from './container'
 
-import NavBar from './components/NavBar/Navbar'
+import { Book, NavBar } from './components'
 
 import './App.css'
+
 
 const App = () => {
     return (
@@ -15,9 +16,11 @@ const App = () => {
             <Services />
             <Ria />
             <Video />
+            <Testimonials />
             <Gallery />
             <Find />
             <Footer />
+            <Book />
         </div>
     )
 }

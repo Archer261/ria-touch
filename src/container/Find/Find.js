@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { SubHeading } from '../../components'
+import { SubHeading, GoogleMap } from '../../components'
 import { images } from '../../constants'
 
 import './Find.css'
@@ -12,8 +12,10 @@ const Find = () => {
         <SubHeading title="Contact" dark={true} />
         <h1 className='headtext__cormorant_dark' style={{ marginBotton: '3rem' }}>How to Find Us</h1>
         <div className='app__wrapper-content'>
-          <p className='p__opensans_dark'>Van Dyke Ave Shelby Business Center,Suite 27
+          <p className='p__opensans_dark'>Van Dyke Ave Shelby Business Center,
+            <br />Suite 27
             51424 Van Dyke Ave Suite 27
+            <br />
             Shelby Twp, MI 48316</p>
           <p className='p__cormorant' style={{ color: "#DCCA87", margin: "2rem 2rem" }}>Hours</p>
           <p className='p__opensans_dark'>Mon 9:30 am - 6:00 pm</p>
@@ -26,7 +28,7 @@ const Find = () => {
         <button className='custom__button' style={{ marginTop: '2rem' }}>Visit Us</button>
       </div>
       <div className='app__wrapper_img'>
-        <img src={images.gallery3} alt="location" />
+        <GoogleMap />
 
       </div>
     </div>

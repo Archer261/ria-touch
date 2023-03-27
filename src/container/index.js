@@ -6,7 +6,8 @@ import Video from "./Video/Video"
 import Gallery from "./Gallery/Gallery"
 import Find from "./Find/Find"
 import Footer from "./Footer/Footer"
+import Testimonials from "./Testimonials/Testimonials"
 
 export {
-    Header, About, Services, Ria, Video, Gallery, Find, Footer
+    Header, About, Services, Ria, Video, Gallery, Find, Footer, Testimonials
 };

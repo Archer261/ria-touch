@@ -17,8 +17,8 @@ const About = () => {
             About Ria's Touch
           </h1>
           <img src={images.massage} alt="massage" className='massage__img' />
-          <p className='p__opensans'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <button type="button" className='custom__button'>Know More</button>
+          <p className='p__opensans'>Our competent and friendly team uses the latest techniques to provide you with a holistic, individualized treatment. We offer customized treatments for chronic pain and massage therapy. Whether you'd like to focus on preventative care for your back or abdominal exercises, our excellent services will help you meet your goals with confidence — and enjoy the process.</p>
+          {/* <button type="button" className='custom__button'>Know More</button> */}
         </div>
 
         <div className='app__aboutus-content_rose flex__center'>
@@ -30,8 +30,12 @@ const About = () => {
             Location
           </h1>
           <img src={images.massage} alt="massage" className='massage__img' />
-          <p className='p__opensans'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <button type="button" className='custom__button'>Know More</button>
+          <p className='p__opensans'>
+            One block North of 23 Mile, on Van Dyke.
+          </p>
+          <img style={{ width: '40%', height: 'auto', borderRadius: '15%', alignSelf: 'center' }} src={images.site} />
+
+          {/* <button type="button" className='custom__button'>Know More</button> */}
         </div>
 
       </div>

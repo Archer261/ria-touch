@@ -15,7 +15,7 @@ const Header = () => {
                     <br />
                     We will reduce your aches and pains, but don't just think of our services as a therapeutic remedy. Our massage therapy and classes have preventative advantages, too. Enhance your health and improve your performance with our holistic treatments.
                 </p>
-                <button type='button' className='custom__button'>Explore Services</button>
+                <a href='#services'><button type='button' className='custom__button'>Explore Services</button></a>
             </div>
 
             <div className='app__wrapper_img'>

@@ -24,7 +24,7 @@ const Navbar = () => {
             <div className='app__navbar-call'>
                 <a href="tel:5862586841" className='p__opensans'>(586)258-6841</a>
                 <div />
-                <a href='/' className='p__opensans'>Book Appointment</a>
+                <a href='https://riastouchmassage.fullslate.com/' className='p__opensans'>Book Appointment</a>
             </div>
             <div className='app__navbar-smallscreen'>
                 <GiHamburgerMenu color='#a82b7d' fontSize={27} onClick={() => setToggleMenu(true)} />
