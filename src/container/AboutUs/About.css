@@ -39,7 +39,7 @@
     flex: 1;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     text-align: left;
 }
@@ -55,9 +55,13 @@
         height: 280px;
     }
 
-    .app__aboutus-content_location p,
+
     .app__aboutus-content_about p {
         margin: 4rem 0;
+    }
+
+    .app__aboutus-content_location p {
+        margin: 2rem 0;
     }
 
 }

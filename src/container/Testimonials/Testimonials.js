@@ -75,20 +75,7 @@ const Testimonials = () => {
             </div> */}
 
             <div className='app__gallery-images'>
-                <div className='app__gallery-images_container' ref={scrollRef}>
-                    {testimonials.map((test, index) => (
-                        <div className='app__gallery-images_card flex__center' key={`gallery_image-${index + 1}`}>
-                            {/* <img src={image} alt='gallery image' /> */}
-                            {/* <BsInstagram className='gallery__image-icon' /> */}
-                            <div className="testimonial">
-                                <p className="testimonial-text">{test.text}</p>
-                                <p className="testimonial-author">
-                                    {test.name}, {test.jobTitle}
-                                </p>
-                            </div>
-                        </div>
-                    ))}
-                </div>
+
                 <div className='app__gallery-images_arrows'>
                     <BsArrowLeftShort className='gallery__arrow-icon' onClick={() => scroll('left')} />
                     <BsArrowRightShort className='gallery__arrow-icon' onClick={() => scroll('right')} />

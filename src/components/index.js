@@ -6,7 +6,8 @@ import Book from './Book/Book'
 import NavBar from './NavBar/Navbar'
 import ServiceCard from './ServiceCard/ServiceCard'
 import GoogleMap from './GoogleMap'
+import ImageModal from './ImageModal/ImageModal'
 
 export {
-    SubHeading, ServiceItem, ServicePack, FooterOverlay, Book, NavBar, ServiceCard, GoogleMap
+    SubHeading, ServiceItem, ServicePack, FooterOverlay, Book, NavBar, ServiceCard, GoogleMap, ImageModal
 }

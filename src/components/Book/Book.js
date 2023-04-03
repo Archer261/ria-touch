@@ -21,9 +21,13 @@ const Book = () => {
     }, []);
 
     return (
-        <a href="https://riastouchmassage.fullslate.com/"><button className={`book-btn ${showComponent ? 'visible' : 'hidden'} `}>
-            Book Now
-        </button></a>
+        <div className='book-btn-wrapper'>
+            <a href="https://riastouchmassage.fullslate.com/">
+                <button className={`book-btn ${showComponent ? 'visible' : 'hidden'} `}>
+                    Book Now
+                </button>
+            </a>
+        </div>
     )
 }
 

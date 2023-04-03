@@ -115,6 +115,44 @@
 
 }
 
+.book_appointment-btn {
+    font-family: var(--font-base);
+    color: var(--color-black);
+    background: var(--color-golden);
+    border-radius: 5%;
+    box-shadow: var(--color-golden);
+    margin: 10px;
+    height: auto;
+    width: 12rem;
+    transform: scale(1);
+
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 24px;
+    padding: 1rem;
+
+    animation: pulse-btn 2s infinite;
+}
+
+@keyframes pulse-btn {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgb(168, 43, 125);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
 @media screen and (max-width: 2000px) {
     .app__navbar-logo img {
         width: 90px;

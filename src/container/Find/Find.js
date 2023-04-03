@@ -8,7 +8,7 @@ import './Find.css'
 const Find = () => {
   return (
     <div className='app__bg app__wrapper section__padding' id='contact'>
-      <div className='app__wrapper_info'>
+      <div className='find__wrapper_info'>
         <SubHeading title="Contact" dark={true} />
         <h1 className='headtext__cormorant_dark' style={{ marginBotton: '3rem' }}>How to Find Us</h1>
         <div className='app__wrapper-content'>

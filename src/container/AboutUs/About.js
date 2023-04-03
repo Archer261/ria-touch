@@ -31,9 +31,11 @@ const About = () => {
           </h1>
           <img src={images.massage} alt="massage" className='massage__img' />
           <p className='p__opensans'>
-            One block North of 23 Mile, on Van Dyke.
+            One block North of 23 Mile,
+            <br />
+            off of Van Dyke road.
           </p>
-          <img style={{ width: '40%', height: 'auto', borderRadius: '15%', alignSelf: 'center' }} src={images.site} />
+          <img style={{ width: '60%', height: 'auto', borderRadius: '15%', alignSelf: 'center' }} src={images.site} />
 
           {/* <button type="button" className='custom__button'>Know More</button> */}
         </div>
